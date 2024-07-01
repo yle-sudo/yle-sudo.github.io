@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Murray TAFE</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="indexBody">
+
+  <video autoplay muted loop id="myVideo">
+    <source src="media/MurrayTAFE.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <header>
+    <div class="index">
+      <div class="indexContent">
+        <h1>asdasd WELCOME MurrayTAFE</h1>
+        <p>MurrayTAFE is located along the Murray River with beautiful environment.
+          MurrayTAFE business and technology courses provide practical workforce solutions and customised training for
+          preparation into the business and technology worlds.
+          Gain the skills to meet the needs of industry and enhance your career opportunities. MurrayTAFE business
+          services courses provide practical workforce solutions and customised training designed to prepare students
+          for
+          employment as professionals in the business sector. MurrayTAFE's finance courses equip students with sound
+          financial literacy skills required to meet the needs of the profession.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </nav>
+
+
+  <main class="indexMain">
+    <section>
+        <h1 class="indexMainH1">OUR VALUES</h1>
+        <p class="indexMainP">
+          MurrayTAFE’s values were refreshed and endorsed by the MurrayTAFE Board in 2022.
+          The MurrayTAFE Board is proud to endorse MurrayTAFE’s Values to support our vision of being a leading
+          regional training provider building community capacity through collaboration.
+          Our Values consist of Relationships, Integrity, Accountable and Improvement.
+        </p>
+
+        <h1 class="indexMainH1">NEWS & EVENTS</h1>
+        <p class="indexMainP">
+          Find out what's happening at MurrayTAFE. All the latest news and information about the events at our campuses
+          and in our community.
+        </p>
+
+        <h1 class="indexMainH1">FREE TAFE STORIES</h1>
+        <p class="indexMainP">
+          Hear from some of our students about their Free TAFE experience at MurrayTAFE and get inspired to start your own
+          journey.
+        </p>
+
+        <h1 class="indexMainH1">Get inspired and view the all new MurrayTAFE </h1>
+        <p class="indexMainP">
+          Changing Lives.
+          <br>
+          Building Careers.
+          <br>
+          Transforming Businesses.
+          <br>
+          Empowering the Region.
+          <br>
+        </p>
+    </section>
+
+
+    <aside>
+      <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>What?</h2>
+          <p>Chania is a city on the island of Crete.</p>
+          <h2>Where?</h2>
+          <p>Crete is a Greek island in the Mediterranean Sea.</p>
+          <h2>How?</h2>
+          <p>You can reach Chania airport from all over Europe.</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+
+
+  <footer>
+    <div class="footer">
+      <p>© 2024 Murray Institute of TAFE. All rights reserved.
+        CRICOS Provider Code: 0XXX5A RTO Code: 4XX3 ABN: 9X 2XX 8XX 9XX</p>
+    </div>
+  </footer>
+
+
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
