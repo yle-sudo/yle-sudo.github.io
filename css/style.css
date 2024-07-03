@@ -1,0 +1,277 @@
+/* 
+
+//////////////////////////////////////////////////////////////////////////////////////// style guide start
+Murray Tafe web page style guide 
+All web pages created for Murray Tafe must conform to the following requirements.
+
+Colours
+All web pages must use a white background.
+The default text colour is #080808
+
+Fonts 
+All web pages must use the Google Rubik font for all text including headings and banners. The font can be 
+downloaded at https://fonts.google.com/specimen/Rubik
+
+Banner 
+All web pages must include a banner at the top of the web page.
+The banner must include the web page title centred horizontally and vertically.
+The banner must include a hyperlink to the home page aligned to the top left.
+The banner must include hyperlinks to other website web pages aligned to the top right.
+The banner may include a background image.
+
+Footer 
+All web pages must include a footer at the base of the web page.
+The banner must include the copyright information aligned to the left.
+The footer may include a background image.
+
+Body 
+There are no further restrictions on the web page body.
+
+Text 
+All text must use the font specified in the Fonts section.
+The minimum text size is 12pt.
+All text must be left aligned.
+
+Headings 
+All headings must use the font specified in the Fonts section.
+
+Images 
+All images must use the lowest resolution that does not significantly impact on the image quality when viewed on a 
+PC screen.
+
+All images used as buttons must have minimum horizontal and vertical sizes of 2 centimetres and 1 centimetre, 
+respectively.
+
+All images must include alternative tex.
+
+Video
+All video must use the lowest resolution that does not significantly impact on the video quality when viewed on a PC 
+screen.
+
+Audio 
+There are no further restrictions on audio.
+
+Hyperlinks 
+There are no further restrictions on hyperlinks.
+////////////////////////////////////////////////////////////////////////////////////// style guide end
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////// Web creation procedure start
+Web creation procedure 
+All web pages created for Muray Tafe must address the following requirements:
+• All HTML based web pages must utilise the procedures at https://www.w3schools.com/html/default.asp
+• All XML based web pages must utilise the procedures at https://www.w3schools.com/xml/default.asp
+• All web pages must conform to the accessibility requirements specified in the Web Content Accessibility 
+Guidelines (WCAG) 2.0 at https://www.w3.org/TR/WCAG20/
+• All web pages must conform to the following two style guides:
+• Google HTML/CSS style guide at https://google.github.io/styleguide/htmlcssguide.html specifies general 
+formatting and style rules related to the creation of HTML based web pages
+• Murray Tafe web page style guide specifies the appearance and aesthetics of web pages created for Murray 
+Tafe
+////////////////////////////////////////////////////////////////////////////////////// Web creation procedure end
+
+
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+.rubik {
+  color: #080808;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 430;
+  font-style: normal;
+  margin: 2%;
+  font-size: 20px;
+}
+
+
+/* nav start */
+/* nav */
+/* nav */
+
+.nav {
+  border-bottom: 1px solid black;
+
+}
+
+.topnav {
+  overflow: hidden;
+
+  /* background-color: #333; */
+}
+
+.topnav a {
+  float: left;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+
+  /* background-color: #04AA6D;
+  color: white; */
+}
+
+/* nav */
+/* nav */
+/* nav end */
+
+
+/* mainBanner start */
+/* mainBanner */
+/* mainBanner */
+
+.mainBannerDiv {
+  border-bottom: 1px solid black;
+
+}
+
+.mainBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 90%;
+  height: 130px;
+}
+
+/* mainBanner */
+/* mainBanner */
+/* mainBanner end */
+
+
+
+
+
+/* contact start */
+/* contact  */
+/* contact  */
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* contact  */
+/* contact  */
+/* contact end */
+
+
+/* footer start */
+/* footer */
+/* footer */
+.footer {
+
+  font-size: 12px;
+  border-top: 1px solid black;
+  /* position: fixed; */
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5px;
+  padding-top: 5px;
+  text-align: center;
+
+}
+
+/* footer */
+/* footer */
+/* footer end */
+
+
+
+
+
+
+/* resume containerBox start */
+/* resume containerBox */
+/* resume containerBox */
+.containerBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cardContainer1 {
+
+  /* background-color: aqua; */
+  /* border: 1px solid red; */
+  width: 380px;
+  height: 450px;
+  /* padding: 50px; */
+}
+
+
+.cardContainer2 {
+  border: 1px solid white;
+}
+
+.imgPotrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  /* border: 1px solid red; */
+  /* width: 300px; */
+  /* height: 130px; */
+}
+
+/* resume containerBox */
+/* resume containerBox */
+/* resume containerBox end */
